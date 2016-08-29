@@ -23,3 +23,5 @@
    then show the request and response in console.
    It should also check other servers' health (`areYouThere`) before making any new request.
    So it will be 2 requests every 5 second. :)
+
+Don't need request ID till we add client-side
