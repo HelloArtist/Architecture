@@ -34,7 +34,7 @@ It's going to follow all the good principles and guidelines of microservice arch
 
 ### Gateway  
   ---
-  - An API gateway implemented using one of the famous gateway technologies e.g. [GraphQL](http://graphql.org/docs/getting-started/) [Falcor](https://netflix.github.io/falcor/)
+  - An API gateway implemented using one of the famous gateway technologies e.g. [GraphQL](http://graphql.org/docs/getting-started/) or [Falcor](https://netflix.github.io/falcor/).
   - Main goals of gateway are:
     - Hide background architecture from clients
     - Do Athorization on behalf of all microservices (single source of auth)
