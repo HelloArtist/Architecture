@@ -12,9 +12,9 @@
       serverType: ["nodejs" or "php" or "java"]  
     response:   
       desc: 
-        String  // contains a general description about that server or platform (find it in wikipedia :))  
+        String  # contains a general description about that server or platform (find it in wikipedia :))  
       
-      null      // if couldn't find that
+      null      # if couldn't find that
   ```
   
   If server doesn't have that description it should ask other servers excluding the requesting server
