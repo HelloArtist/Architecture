@@ -3,7 +3,7 @@
 1. each server should have 2 main API functions (watch for camel-case):  
   - `areYouThere`:  
   ```livescript
-    params: null (undefined!)  
+    params: null (undefined! maybe)  
     response: Boolean
   ```
   - `getServerDescription`:  
