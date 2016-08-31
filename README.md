@@ -20,7 +20,7 @@ It's going to follow all the good principles and guidelines of microservice arch
   }
 ]
 ```
-  - We only use `HTTP POST` requests with `"content-type": "application/json"` for communication between micro-services and JSON exists in message body.
+  - We only use `HTTP POST` requests with `"content-type": "application/json"` for communication between micro-services and JSON will be inside message body.
   - Microservices should have a `/api` endpoint for this purpose 
   - Each request consists of a JSON string in the following format:   
 ```javascript
